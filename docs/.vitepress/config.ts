@@ -1,4 +1,5 @@
 import { DefaultTheme, defineConfig } from "vitepress"
+import algolia from './algolia'
 
 const nav: DefaultTheme.NavItem[] = [
     { text: '指南', link: '/guide/' },
@@ -117,6 +118,7 @@ const sidebar: DefaultTheme.Sidebar = {
 export default defineConfig({
     title: 'Ali`s blog',
     description: '基于Vite press的个人博客',
+    outDir: '../../dist',
     lang: 'cn-ZH',
     base: '/',
     lastUpdated: true,
@@ -131,6 +133,7 @@ export default defineConfig({
             { icon: 'github', link: 'https://github.com/xingchen333' }
         ],
         nav,
-        sidebar
+        sidebar,
+        algolia: algolia
     }
 })
