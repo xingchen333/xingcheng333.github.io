@@ -118,7 +118,7 @@ const sidebar: DefaultTheme.Sidebar = {
 export default defineConfig({
     title: 'Ali`s blog',
     description: '基于Vite press的个人博客',
-    outDir: '../../dist',
+    outDir: '../dist',
     lang: 'cn-ZH',
     base: '/',
     lastUpdated: true,
