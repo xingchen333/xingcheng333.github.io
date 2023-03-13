@@ -1,7 +1,7 @@
 export default {
-    appId: '3TLTBPIJIA',
-    apiKey: '356f4cdf8039e0aba5d08e1c2ee667fb',
-    indexName: 'alexblog',
+    appId: 'COGHYXMV8I',
+    apiKey: '6df3d98d569d127030d13ff965c87e48',
+    indexName: 'vitepress-blog',
     placeholder: '请输入关键词',
     translations: {
         button: {
