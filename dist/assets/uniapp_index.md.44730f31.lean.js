@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.a9acbf01.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uniapp/index.md","lastUpdated":1678675678000}'),n={name:"uniapp/index.md"};function r(o,s,p,c,d,i){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
