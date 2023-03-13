@@ -118,7 +118,7 @@ export default defineConfig({
     title: 'Ali`s blog',
     description: '基于Vite press的个人博客',
     lang: 'cn-ZH',
-    base: '/',
+    base:'/docs/',
     lastUpdated: true,
     markdown: {
         lineNumbers: true
