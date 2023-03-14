@@ -10,7 +10,6 @@ import "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/sty
 import "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
 import VPBadge from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
 import Layout from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import NotFound from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
 import { default as default2 } from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
 import { default as default3 } from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
 import { default as default4 } from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
@@ -21,7 +20,6 @@ import { default as default8 } from "D:/个人/alex-blog/node_modules/vitepress/
 import { default as default9 } from "D:/个人/alex-blog/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 var theme = {
   Layout,
-  NotFound,
   enhanceApp: ({ app }) => {
     app.component("Badge", VPBadge);
   }
