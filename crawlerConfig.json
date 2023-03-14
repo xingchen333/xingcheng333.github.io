@@ -1,5 +1,5 @@
 {
-    "index_name": "alexblog",
+    "index_name": "vitepress-blog",
     "start_urls": ["https://xingchen333.github.io/"],
     "rateLimit": 8,
     "maxDepth": 10,
